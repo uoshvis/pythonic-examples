@@ -31,7 +31,7 @@ method('BigBen')
 # elif http_method == 'put':
 #      requests.put(url, data=data)
 
-# Pythonic pseudo
+## Pythonic pseudo
 
 # method = getattr(requests, http_method)
 # method(url, data=data)

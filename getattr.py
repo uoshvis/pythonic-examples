@@ -16,7 +16,7 @@ print(getattr(user, "first_name"))
 # BigName
 
 print(getattr(user, "say_hello"))
-#<bound method Person.say_hello of <__main__.Person object at 0x7f39a6753c88>>
+# <bound method Person.say_hello of <__main__.Person object at 0x7f39a6753c88>>
 
 method = getattr(user, 'say_hello')
 method('BigBen')
